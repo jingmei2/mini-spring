@@ -99,11 +99,13 @@ public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry i
 		return this.beanPostProcessors;
 	}
 
-	public void addEmbeddedValueResolver(StringValueResolver valueResolver) {
+	@Override
+    public void addEmbeddedValueResolver(StringValueResolver valueResolver) {
 		this.embeddedValueResolvers.add(valueResolver);
 	}
 
-	public String resolveEmbeddedValue(String value) {
+	@Override
+    public String resolveEmbeddedValue(String value) {
 		String result = value;
 		for (StringValueResolver resolver : this.embeddedValueResolvers) {
 			result = resolver.resolveStringValue(result);

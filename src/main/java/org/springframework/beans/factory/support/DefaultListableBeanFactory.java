@@ -49,7 +49,8 @@ public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFacto
 		return result;
 	}
 
-	public <T> T getBean(Class<T> requiredType) throws BeansException {
+	@Override
+    public <T> T getBean(Class<T> requiredType) throws BeansException {
 		List<String> beanNames = new ArrayList<>();
 		for (Map.Entry<String, BeanDefinition> entry : beanDefinitionMap.entrySet()) {
 			Class beanClass = entry.getValue().getBeanClass();
