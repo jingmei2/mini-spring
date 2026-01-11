@@ -7,6 +7,7 @@ import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.config.BeanReference;
 
 /**
+ * 自动装配Bean工厂类，实现了BeanFactory接口，用于创建Bean实例
  * @author derekyi
  * @date 2020/11/22
  */

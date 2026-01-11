@@ -7,6 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * 默认的Bean工厂类，实现了BeanDefinitionRegistry接口，用于注册BeanDefinition
  * @author derekyi
  * @date 2020/11/22
  */

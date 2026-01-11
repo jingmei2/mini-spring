@@ -17,6 +17,10 @@ import static org.assertj.core.api.Assertions.assertThat;
  */
 public class PopulateBeanWithPropertyValuesTest {
 
+    /**
+	 * 测试为bean注入普通属性
+     * @throws Exception
+     */
 	@Test
 	public void testPopulateBeanWithPropertyValues() throws Exception {
 		DefaultListableBeanFactory beanFactory = new DefaultListableBeanFactory();
@@ -33,7 +37,7 @@ public class PopulateBeanWithPropertyValuesTest {
 	}
 
 	/**
-	 * 为bean注入bean
+	 * 测试为bean注入bean引用
 	 *
 	 * @throws Exception
 	 */

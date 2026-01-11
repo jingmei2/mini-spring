@@ -5,6 +5,7 @@ import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.config.BeanDefinition;
 
 /**
+ * AbstractBeanFactory是BeanFactory接口的抽象实现，定义了获取bean的流程，包括从单例缓存中获取、从BeanDefinitionMap中获取、创建bean等
  * @author derekyi
  * @date 2020/11/22
  */
