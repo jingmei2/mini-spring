@@ -9,6 +9,7 @@
 **姊妹版：** 
  - [**mini-spring-cloud**](https://github.com/DerekYRC/mini-spring-cloud) **(简化版的spring cloud框架)**
  - [**mini-netty**](https://github.com/DerekYRC/mini-netty) **(简化版的netty框架)**
+ - [**mini-claude-code**](https://github.com/DerekYRC/mini-claude-code) **(简化版的Claude Code)**
 
 ## 关于
 
@@ -71,8 +72,6 @@
 
 ## 关于我
 [**点此了解**](https://github.com/DerekYRC)
-
-手机/微信：**15975984828**  邮箱：**15975984828@163.com**
 
 ## Star History
 
